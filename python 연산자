@@ -1,0 +1,12 @@
+#연산자
+
+a = 2
+b = 5
+print(a+b) #더하기
+print(a-b) #빼기 
+print(a*b) #곱하기 
+print(a/b) #나누기 자바와 다르게 소수도 나온다
+print(a%b) #나머지 
+#비교 연산자
+print(a==b)# 같은것인지 비교
+print(a!=b)# 진실 거짓을 반대로 출력함
