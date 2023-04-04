@@ -1,0 +1,14 @@
+from random import randrange
+
+a = randrange(10)
+
+for i in range(11):
+  n = int(input('정답은?'))
+  if a==n:
+    print('정답입니다')
+    break #반복문 탈출하기
+  elif a<n: # else을 덜 쓸수있게 해준다 if else와 같은 것이다.
+      print('down')
+  else:
+      print('up')
+  
